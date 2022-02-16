@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Varela Round', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+a{ 
+    width: 90%;
+    text-align: center;
+    padding: 70px;
+    margin: 10px auto;
+    border-radius: 30px;
+    color: white ;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.c0{
+    width: 100%;
+}
+.c0 img{
+    width: 120px;
+    justify-content: space-between;
+}
+
+
+.c0{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c0 .title {
+    justify-content: flex-end;
+}
+.title p {
+    color: black;
+}
+
+.conversor {
+    background-color: #ff9aa2;
+    margin: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    max-width: 620px;
+    
+}
+
+.conversor p {
+    margin: 4px 0;
+}
+.conversor input {
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.conversor button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #f7b9bd;
+}
+.c8 {
+    background-color: #ff9aa2;
+}
+.c7 {
+    background-color: #ffb7b2 ;
+}
+.c6 {
+    background-color: #ffdac1;
+}
+.c5 {
+    background-color: #ffecc4;
+}
+.c1 {
+    background-color: #e2f0cb;
+}
+.c2 {
+    background-color: #b5ead7 ;
+}
+.c3 {
+    background-color: #c7ceea;
+}
+.c4 {
+    background-color: #92e8e5;
+}
+footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+@media(min-width:520px){
+    .c1, .c2, .c3, .c4 {
+        width: 48%;
+    }
+}

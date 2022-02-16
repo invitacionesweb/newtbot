@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE FISICA-MRUV</title>
+    <link rel="stylesheet" href="stylemruv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"></head>
+<body>
+  <div class="container">
+      <div class="c0">
+          <a href="index.html">
+            <img src="icon/Studio-Project.png" alt="">
+          </a>  
+          <div class="title">
+              <p>MRUV</p>
+              <p>En física, el movimiento rectilíneo uniformemente variado, es aquel en el que un móvil se desplaza sobre una trayectoria recta estando sometido a una aceleración constante.</p>
+          </div>
+      </div>
+      <section class="c1">
+          <p>Calcula la aceleración del movil</H2>
+          <form  action="">
+              <input id="velocidadinical1" type="number" placeholder="velocidad inicial">
+              <label for="velocidadinicial1">
+                m/s
+              </label>
+              <input id="velocidadfinal1" type="number" placeholder="velocidad final">
+              <label for="velocidadfinal1">
+                m/s
+              </label>
+              <input id="tiempoinicial1" type="number" placeholder="tiempo inical">
+              <label for="tiempoinicial1">
+                seg 
+              </label>
+              <input id="tiempofinal1" type="number" placeholder="tiempo final">
+              <label for="tiempofinal1">
+                seg 
+              </label>
+              <button type="button" onclick="calcularAceleracion()" >
+                CALCULAR ACELERACIÓN
+              </button>
+
+              <p id="resultAceleracion"></p>
+          </form>
+        </section>
+
+        <!--CALCULAR POSICION-->
+        <section class="c2">
+            <p>Calcula la posición final del movil</H2>
+            <form  action="">
+                <input id="posicioninicial2" type="number" placeholder="posición inicial">
+                <label for="posicioninicial2">
+                  mts
+                </label>
+                <input id="velocidadinicial2" type="number" placeholder="velocidad inicial">
+                <label for="velocidadinicial2">
+                  m/s
+                </label>
+                <input id="tiempo2" type="number" placeholder="tiempo">
+                <label for="tiempo2">
+                  seg 
+                </label>
+                <input id="aceleracion2" type="number" placeholder="aceleración">
+                <label for="aceleracion2">
+                  m/s^2 
+                </label>
+                <button type="button" onclick="calcularPosicion()" >
+                  CALCULAR POSICIÓN
+                </button>
+  
+                <p id="resultPosicion"></p>
+            </form>
+          </section>
+        
+           <!--CALCULAR VELOCIDAD-->
+        <section class="c3">
+            <p>Calcula la velocidad final del movil</H2>
+            <form  action="">
+                <input id="velocidadinicial3" type="number" placeholder="velocidad inicial">
+                <label for="velocidadinicial3">
+                  m/s
+                </label>
+                <input id="tiempo3" type="number" placeholder="tiempo">
+                <label for="tiempo3">
+                  seg
+                </label>
+                <input id="aceleracion3" type="number" placeholder="aceleración">
+                <label for="aceleracion3">
+                  m/s^2
+                </label>
+                
+                <button type="button" onclick="calcularVelocidadF()" >
+                  CALCULAR VELOCIDAD
+                </button>
+  
+                <p id="resultVelocidadfinal"></p>
+            </form>
+          </section>
+        
+           
+  </div>
+  <footer>Hecho  con 💖 Por Ara Garrido</footer>
+
+  <script src="mruv.js"></script>
+</body>

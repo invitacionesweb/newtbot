@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Varela Round', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c0{
+    width: 100%;
+    background-color:#e2f0cb ;
+    
+}
+.c0 img{
+    width: 120px;
+    justify-content: space-between;
+}
+
+
+.c0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c0 .title {
+    justify-content: flex-end;
+}
+
+
+.c1 {
+    background-color: #e2f0cb;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+    border-radius: 20px;
+     
+}
+.c2 {
+    background-color: #b5ead7 ;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+    border-radius: 20px;
+}
+.c3 {
+    background-color: #c7ceea;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+    border-radius: 20px;
+}
+form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    
+}
+button {
+    margin: 10px 0;
+    width: 90%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.c1 button {
+    background-color: #f0f7e3;
+}
+.c2 button {
+    background-color: #cff7e9;
+}
+.c3 button {
+    background-color: #dee4f7;
+}
+
+
+footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+@media(min-width:520px){
+    .c1, .c2, .c3, .c4 {
+        width: 30%;
+    }
+}

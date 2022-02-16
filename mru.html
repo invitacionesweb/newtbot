@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE FISICA-MRU</title>
+    <link rel="stylesheet" href="stylemru.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"></head>
+<body>
+  <div class="container">
+      <div class="c0">
+          <a href="index.html">
+            <img src="icon/Studio-Project.png" alt="">
+          </a>  
+          <div class="title">
+              <p>MRU</p>
+              <p>Un objeto se mueve con movimiento rectilíneo y uniforme si se mueve en línea recta y va con velocidad constante.</p>
+          </div>
+      </div>
+      <section class="c1">
+          <p>Calcula la distancia recorrida</H2>
+          <form  action="">
+              <input id="velocidad1" type="number" placeholder="velocidad">
+              <label for="velocidad1">
+                m/s
+              </label>
+              <input id="tiempo1" type="number" placeholder="tiempo">
+              <label for="tiempo1">
+                seg 
+              </label>
+              <button type="button" onclick="calcularDistancia()" >
+                CALCULAR DISTANCIA
+              </button>
+
+              <p id="resultDistancia"></p>
+          </form>
+        </section>
+        <section class="c2">
+            <p>Calcula la velocidad constante</H2>
+            <form  action="">
+                <input id="distancia2"  type="number" placeholder="distancia">
+                <label for="distancia2">
+                    mts
+                </label>
+                <input id="tiempo2" type="number" placeholder="tiempo">
+                <label for="tiempo2">
+                    seg 
+                </label>
+                <button type="button" onclick="calcularVelocidad()">
+                    CALCULAR VELOCIDAD
+                </button>
+                <p id="resultVelocidad"></p>
+            </form>
+          </section>
+          <section class="c3">
+            <p>Calcula el tiempo</H2>
+            <form  action="">
+                <input id="distancia3" type="number" placeholder="distancia">
+                <label for="distancia3">
+                    mts
+                </label>
+                <input id="velocidad3" type="number" placeholder="velocidad">
+                <label for="velocidad3">
+                    m/s 
+                </label>
+                <button type="button" onclick="calcularTiempo()">
+                    CALCULAR TIEMPO
+                </button>
+                <p id="resultTiempo"></p>
+            </form>
+          </section>
+  </div>
+  <footer>Hecho  con 💖 Por Ara Garrido</footer>
+
+  <script src="mru.js"></script>
+</body>

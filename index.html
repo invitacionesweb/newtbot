@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE FISICA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"></head>
+<body>
+  <div class="container">
+      <div class="c0">
+          <img src="icon/Studio-Project.png" alt="">  
+          <div class="title">
+              <p>👋🏼Hola, soy <b>Issac Newbot</b> y te voy a ayudar a resolver ejercicios de fisica.🍎</p>
+          </div>
+      </div>
+      <div class="conversor">
+          <h3>CONVERSOR DE UNIDADES</h3>
+          <P>Recorda que es muy importante revisar las unidades de los datos antes de comenzar a resolver los ejercicios.</P>
+        <form  action="">
+            <br>
+            <label for="kilometroPorHora">
+                convertir km/h a m/s
+            </label>
+            <input id="kilometroPorHora" type="number" placeholder="Km/h" >
+                
+            <button type="button" onclick="conversorUno()" >
+              CONVERTIR
+            </button>
+
+            <p id="resultKilometro"></p>
+        </form>
+        <br>
+
+
+        <form  action="">
+            <label for="metroSobreSegundo">
+                convertir m/s a km/h
+            </label>
+            <input id="metroSobreSegundo" type="number" placeholder="m/s">
+                        
+            <button type="button" onclick="resultConversorDos()"  >
+              CONVERTIR
+            </button>
+
+            <p id="converosdos"></p>
+        </form>
+      </div>
+      <a class="c1" href="mru.html">MRU</a>
+      <a class="c2" href="mruv.html">MRUV</a>
+      <a class="c3" href="">CAIDA LIBRE</a>
+      <a class="c4" href="">TIRO VERTICAL</a>
+      
+  </div>
+  <footer>Hecho  con 💖 Por Ara Garrido</footer>
+
+  <script src="conversor.js"></script>
+</body>
