@@ -9,6 +9,8 @@ html {
 .container {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
 }
 
 .c0{
@@ -95,6 +97,6 @@ footer {
 
 @media(min-width:520px){
     .c1, .c2, .c3, .c4 {
-        width: 30%;
+        width: 48%;
     }
 }

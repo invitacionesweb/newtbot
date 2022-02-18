@@ -5,7 +5,7 @@ function aceleracionMovil(velocidadfinal,velocidadinicial, tiempofinal, tiempoin
  }
 
  function posicionMovil(posicioninicial2, velocidadinicial2, tiempo2, aceleracion2) {
-    return parseInt(posicioninicial2) + parseInt(velocidadinicial2);
+    return  parseInt(posicioninicial2) + parseInt(velocidadinicial2 * tiempo2) + ((aceleracion2 * (tiempo2 * tiempo2))/2);
     
 }
 
@@ -39,7 +39,7 @@ function calcularPosicion() {
     const value7 = input7.value;
     const value8 = input8.value;
 
-    const posicion = aceleracionMovil(value5, value6, value7, value8);
+    const posicion = posicionMovil(value5, value6, value7, value8);
    
     resultPosicion.innerText = posicion + " metros.";
 }

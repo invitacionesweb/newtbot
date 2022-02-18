@@ -28,7 +28,8 @@ html {
     justify-content: center;
 }
 .c0 .title {
-    justify-content: flex-end;
+    justify-content: center;
+    padding: 20px 20px 20px 10px;
 }
 
 
@@ -95,6 +96,6 @@ footer {
 
 @media(min-width:520px){
     .c1, .c2, .c3, .c4 {
-        width: 30%;
+        width: 48%;
     }
 }

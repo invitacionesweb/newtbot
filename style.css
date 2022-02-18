@@ -44,14 +44,17 @@ a{
 }
 
 .conversor {
+    width: 100%;
     background-color: #ff9aa2;
     margin: 30px;
     border-radius: 30px;
     padding: 30px;
     text-align: center;
     color: white;
-    max-width: 620px;
-    
+  
+}
+.formularios {
+    margin-top: 30px;
 }
 
 .conversor p {
@@ -113,5 +116,15 @@ footer {
 @media(min-width:520px){
     .c1, .c2, .c3, .c4 {
         width: 48%;
+    }
+    .conversor {
+        width: 100%;
+    }
+    .formularios {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 30px;
     }
 }
